@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Land Investment — IHAM</title>
+  <meta name="description"
+    content="Dry, surveyed and fenced investment plots on the Abuja and Lagos growth corridors, with interest-free payment plans.">
+
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("iham-theme");
+        if (!t) t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.setAttribute("data-theme", t);
+      } catch (e) { }
+    })();
+  </script>
+
+  <link rel="icon" href="assets/img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="../shared/theme.css">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="shell">
+      <a href="index.html" class="brand">
+        <img src="assets/img/logo.png" alt="IHAM logo">
+        <span class="brand-text">
+          <strong>Institute of Housing Administration</strong>
+          <small>&amp; Management Ltd/Gte</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="properties.html">Properties</a>
+        <a href="land-investment.html" class="active">Land Investment</a>
+        <a href="training.html">Training</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" type="button" aria-label="Switch colour theme" aria-pressed="false">
+          <i class="fa-solid fa-moon icon-moon"></i>
+          <i class="fa-solid fa-sun icon-sun"></i>
+        </button>
+        <a href="contact.html" class="btn btn-primary d-none d-sm-inline-flex">Book Inspection</a>
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-banner">
+    <img class="banner-bg" src="assets/img/land-property.jpg" alt="">
+    <div class="shell">
+      <div class="crumbs"><a href="index.html">Home</a> / Land Investment</div>
+      <h1>Land investment</h1>
+      <p class="mb-0" style="color: rgba(255,255,255,.74); max-width: 620px">
+        Buying land to hold is a different decision from buying a house to live in — different
+        checklist, different time horizon. Looking for a home instead?
+        <a href="properties.html">See properties</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- Why land -->
+  <section class="section" style="padding-bottom: 0">
+    <div class="shell">
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3" data-reveal>
+          <div class="trust-card">
+            <div class="ico"><i class="fa-solid fa-droplet-slash"></i></div>
+            <h3>100% dry land</h3>
+            <p>No reclamation, no flood history. We walk the site with you in the rainy season if you ask.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-reveal>
+          <div class="trust-card">
+            <div class="ico"><i class="fa-solid fa-file-contract"></i></div>
+            <h3>Clean, transferable title</h3>
+            <p>Registered survey and deed of assignment issued in your name on completion of payment.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-reveal>
+          <div class="trust-card">
+            <div class="ico"><i class="fa-solid fa-calendar-days"></i></div>
+            <h3>0% interest plans</h3>
+            <p>Spread over 12 to 18 months. Nothing is added on top — the plan price is the cash price.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-reveal>
+          <div class="trust-card">
+            <div class="ico"><i class="fa-solid fa-location-crosshairs"></i></div>
+            <h3>Immediate allocation</h3>
+            <p>Your specific plot is pegged and allocated the moment payment completes. No waiting list.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Listings -->
+  <section class="section">
+    <div class="shell">
+      <div class="section-head center" data-reveal>
+        <span class="eyebrow">Open Estates</span>
+        <h2>Plots available now</h2>
+        <p>Every estate below is fenced, surveyed and ready for allocation.</p>
+      </div>
+
+      <div class="row g-4" data-property-grid data-track="land"></div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="section section-sunken">
+    <div class="shell">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-5" data-reveal>
+          <div class="section-head mb-0">
+            <span class="eyebrow">How It Works</span>
+            <h2>From first call to title in your hand.</h2>
+            <p>Four steps, no surprises in between.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-7" data-reveal>
+          <div class="step-row">
+            <div class="num">1</div>
+            <div>
+              <h4>Book a free site inspection</h4>
+              <p>Pick a date and time on any listing. We meet you at the estate — bring your surveyor or solicitor.</p>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="num">2</div>
+            <div>
+              <h4>Choose your plot and payment plan</h4>
+              <p>Pay outright or spread it over 12 to 18 months. Your plot is reserved from the first instalment.</p>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="num">3</div>
+            <div>
+              <h4>Allocation and pegging</h4>
+              <p>On completion we peg your exact plot with you present and issue the allocation letter.</p>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="num">4</div>
+            <div>
+              <h4>Documentation</h4>
+              <p>Registered survey and deed of assignment prepared in your name and handed over.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <a href="index.html" class="brand mb-3">
+            <img src="assets/img/logo.png" alt="IHAM logo">
+            <span class="brand-text">
+              <strong>Institute of Housing Administration</strong>
+              <small>&amp; Management Ltd/Gte</small>
+            </span>
+          </a>
+          <p>
+            Verified land and property across Abuja and Lagos, and the professional certification
+            that sets the standard we sell by.
+          </p>
+          <div class="team-socials justify-content-start mt-3">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" data-wa-link aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="index.html#team">Our Team</a></li>
+            <li><a href="index.html#why-us">Why Trust Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="properties.html">Properties</a></li>
+            <li><a href="land-investment.html">Land Investment</a></li>
+            <li><a href="training.html">Training</a></li>
+            <li><a href="index.html#testimonials">Testimonials</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4">
+          <h4>Get In Touch</h4>
+          <ul class="footer-links">
+            <li><i class="fa-solid fa-location-dot me-2"></i>1st Avenue,plot 64,C close,Qwarimpa,Abuja</li>
+            <li><i class="fa-solid fa-location-dot me-2"></i>SUITE C11, MIDLAND HOUSE, 521 ROAD, 5TH AVENUE, GWARIMPA, ABUJA</li>
+            <li><i class="fa-solid fa-location-dot me-2"></i>No. 10, kelvine court,woodland Grove,Isleworth,London TW7 6NT</li>
+            <li><i class="fa-brands fa-whatsapp"></i> +234 9067871178</li>
+            <li><i class="fa-brands fa-whatsapp"></i> +234 8058891992</li>
+            <li><i class="fa-brands fa-whatsapp"></i> +234 8156207798</li>
+            <li><i class="fa-solid fa-phone me-2"></i> +447868306399</li>
+            <li><i class="fa-solid fa-envelope me-2"></i> info@iham.org.ng</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; <span data-year>2026</span> Institute of Housing Administration &amp; Management Ltd/Gte. All rights reserved.</span>
+        <span>
+          <a href="#">Privacy Policy</a> &nbsp;·&nbsp;
+          <a href="#">Terms of Service</a> &nbsp;·&nbsp;
+          <a href="../admin/login.html">Admin</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" data-wa-link class="wa-float" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../shared/theme.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+
+</html>
